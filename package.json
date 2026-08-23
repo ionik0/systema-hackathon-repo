@@ -1,0 +1,27 @@
+{
+  "name": "systema-hackathon-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public hackathon demo of Systema (a technical interview practice platform). The real product lives at https://systema-sd.in - this repo is a scaled-down, mocked-evaluation preview built for the Razorpay hackathon.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "reactflow": "^11.11.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "typescript": "^5.5.3"
+  }
+}
